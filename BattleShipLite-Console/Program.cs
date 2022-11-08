@@ -211,7 +211,7 @@ namespace BattleShipLite_Console
                 }
                 else
                 {
-                    Console.WriteLine($"Ship number {model.ShipLocations.Count + 1} placed successfully");
+                    Console.WriteLine($"Ship number {model.ShipLocations.Count } placed successfully");
                 }
             } while (model.ShipLocations.Count < 2);
         }
